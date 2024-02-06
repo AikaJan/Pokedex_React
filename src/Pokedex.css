@@ -1,0 +1,19 @@
+.Pokedex {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 10px;
+    margin: 0%;
+
+}
+
+.Pokedex-item {
+    grid-column: span 1;
+}
+
+
+@media (max-width: 767px) {
+    .Pokedex {
+        grid-template-columns: auto;
+
+    }
+}
